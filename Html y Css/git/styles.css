@@ -11,12 +11,18 @@ body {
 h1 {
     color: red;
     text-align: center;
+    margin: 20px;
+    padding: 10px;
 }
 
 h2 {
     color: aqua;
+    margin: 20px;
+    padding: 10px;
 }
 
 p {
     color: wheat;
+    margin: 20px;
+    padding: 10px;
 }
