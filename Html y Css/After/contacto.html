@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="arriba">
+            REPASANDO
+        </h1>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Inicio</li></a>
+                <li> <a href="productos.html">Productos</li></a>
+                <li> <a href="servicios.html">Servicios</li></a>
+                <li> <a href="contacto.html">Contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+<form action="#">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+        <div>
+            <label for="nombre">Completa tu nombre</label>
+            <input type="text" name="name" placeholder="Escribe tu nombre">
+        </div>
+        <br>
+        <div>
+            <label for="apellido">Completa con tu apellido</label>
+            <input type="text" name="apellido" placeholder="Escribe tu apellido">
+        </div>
+        <br>
+        <div>
+            <label for="civil">Estado Civil</label>
+            <input type="radio" value="casado" name="civil">Casado
+            <input type="radio" value="separado" name="civil">Separado
+            <input type="radio" value="soltero" name="civil">Soltero
+            <input type="radio" value="viudo" name="civil">Viudo
+        </div>
+        <br>
+        <div>
+            <label for="nacimiento">Selecciona tu fecha de nacimiento</label>
+            <input type="date" name="nacimiento">
+        </div>
+        <br>
+        <div>
+            <label for="color">Selecciona tu color preferido</label>
+            <select name="color">
+            <option value="azul">Azul</option>
+            <option value="celeste">Celeste</option>
+            <option value="rojo">Rojo</option>
+            <option value="verde">Verde</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email">Escribe tu mail</label>
+            <input type="email" required name="email" placeholder="Escribe tu email">
+        </div>
+        <br>
+        <div>
+            <label for="pais">Elije tu país de residencia</label>
+            <select name="pais" id="">
+                <option value="argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+                <option value="uruguay">Uruguay</option>
+                <option value="chile">Chile</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="contraseña">Escribe tu contraseña</label>
+            <input type="password" placeholder="Contraseña">
+        </div>
+        <br>
+        <div>
+            <label for="comentario">Escribe tu comentario</label>
+            <br>
+            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Escribe un comentario"></textarea>
+            <br>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Enviar comentario">
+            <input type="reset" value="Borrar datos">
+        </div>
+    </fieldset>
+</form>
+        </section>
+    </main>
+    <footer>
+        <h4>Creado por Javi</h4>
+        <a href="#arriba">Ir Arriba</a>
+    </footer>
+</body>
+
+</html>

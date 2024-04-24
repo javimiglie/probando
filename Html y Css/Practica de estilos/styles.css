@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    ;
+}
+
+h1 {
+    color: blue;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: white;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu {
+    background-color: white;
+    list-style: none;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: darkred;
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.menu li a:hover {
+    color: red;
+    background-color: grey;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.seccion1 {
+    background-color: #0cbaba;
+    color: blue;
+    line-height: 1.6;
+    padding: 20px;
+    margin: 30px;
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+    border: solid black 5px;
+    display: inline-block;
+}
+
+.seccion2 {
+    background-color: red;
+    color: yellow;
+    line-height: 1.6;
+    padding: 10px;
+    margin: 30px;
+    border: solid black 5px;
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.seccion3 {
+    background-color: seagreen;
+    color: azure;
+    line-height: 1.6;
+    padding: 10px;
+    margin: 30px;
+    border: solid black 5px;
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+    display: inline-block;
+}

@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    width: 95%;
+    height: 400px;
+    color: white;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        "header header header header"
+        "prod prod extras aside"
+        "footer footer footer footer"
+    ;
+}
+
+.header {
+    background-color: blue;
+    grid-area: header;
+}
+
+.prod {
+    background-color: blueviolet;
+    grid-area: prod;
+}
+
+.extras {
+    background-color: gray;
+    grid-area: extras;
+}
+
+.aside {
+    background-color: aqua;
+    grid-area: aside;
+}
+
+.footer {
+    background-color: yellow;
+    grid-area: footer;
+}

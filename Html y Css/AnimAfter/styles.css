@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(circle, rgb(147, 193, 245), rgb(240, 152, 152), rgb(247, 247, 164));
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja {
+    width: 300px;
+    height: 200px;
+    margin: 100px 30px;
+    background-color: blue;
+}
+
+.uno {
+    background: linear-gradient(yellow, red);
+}
+
+.uno:hover {
+    background: linear-gradient(red, yellow);
+}
+
+.dos {
+    background-color: lime;
+    transition: all 2s ease;
+}
+
+.dos:hover {
+    background-color: green;
+    transform: scale(1.2, 1.2);
+}
+
+.tres {
+    background-color: coral;
+    transition: all 2s ease;
+}
+
+.tres:hover {
+    background-color: orangered;
+    transform: translate(5px, 5px);
+}

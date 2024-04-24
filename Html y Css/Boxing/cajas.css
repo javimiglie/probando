@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajas {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.verde {
+    background-color: green;
+}

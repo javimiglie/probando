@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Ejemplo de Formulario</h1>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <div>
+                    <label for="nombre">Completa tu nombre</label>
+                    <input type="text" name="name" placeholder="Escribe tu nombre">
+                </div>
+                <div>
+                    <label for="apellido">Completa con tu apellido</label>
+                    <input type="text" name="apellido" placeholder="Escribe tu apellido">
+                </div>
+                <div>
+                    <label for="email">Escribe tu mail</label>
+                    <input type="email" required name="email" placeholder="Escribe tu email">
+                </div>
+                <div>
+                    <label for="pais">Elije tu país de residencia</label>
+                    <select name="pais" id="">
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="chile">Chile</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="contraseña">Escribe tu contraseña</label>
+                    <input type="password" placeholder="Contraseña">
+                </div>
+                <div>
+                    <label for="comentario">Escribe tu comentario</label>
+                    <br>
+                    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                    <br>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar comentario">
+                    <br>
+                    <input type="reset" value="Borrar datos">
+                </div>
+            </fieldset>
+        </form>
+</body>
+</html>

@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caja {
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+
+
+.grad1 {
+    background-color: red;
+}
+
+.grad2 {
+    background-color: orange;
+}
+
+.grad3 {
+    background-color: green;
+}
+
+.grad4 {
+    background-color: yellow;
+}
+
+.translate:hover {
+    transform: translate(30px, 5px);
+}
+
+.rotate:hover {
+    transform: rotate(30deg);
+}
+
+.skew:hover {
+    transform: skew(20deg);
+}
+
+.scale:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.cajita {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+
+.tran1 {
+    background-color: black;
+    transition: all 2s ease;
+}
+
+.tran1:hover {
+    background-color: gray;
+    width: 250px;
+    height: 200px;
+}
+
+.tran2 {
+    background-color: aqua;
+    border: solid 2px grey;
+    transition: all 2s ease;
+}
+
+.tran2:hover {
+    background-color: blue;
+    transform: scale(1.1, 1.1);
+    border: solid 5px black;
+}
+
+h3 {
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+.tran3 {
+    background-color: black;
+    animation-duration: 1s;
+    animation-name: titilar;
+    animation-iteration-count: infinite;
+}
+
+@keyframes titilar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.tran4 {
+    background-color: blue;
+    transition: all 2s;
+}
+
+.tran4:hover {
+    box-shadow: 8px 8px rgb(166, 166, 245);
+}
+
+p {
+    filter: blur(15px);
+    font-size: 150px;
+    margin: 5px;
+    transition: all 2s;
+}
+
+p:hover {
+    filter: none;
+}

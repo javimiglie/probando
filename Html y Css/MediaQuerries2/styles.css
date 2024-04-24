@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+.contenedor {
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "header header header"
+        "contenido contenido sidebar"
+        "caja1 caja2 sidebar"
+        "footer footer footer"
+    ;
+}
+
+.header {
+    background-color: navy;
+    color: white;
+    grid-area: header;
+    padding: 20px;
+}
+
+.contenido {
+    padding: 10px;
+    line-height: 1.5;
+    grid-area: contenido;
+}
+
+.sidebar {
+    padding: 20px;
+    grid-area: sidebar;
+    background-color: darkgoldenrod;
+}
+
+.caja1,
+.caja2 {
+    padding: 20px;
+    border: 4px;
+    background-color: darkmagenta
+}
+
+.caja1 {
+    grid-area: caja1;
+}
+
+.caja2 {
+    grid-area: caja2;
+}
+
+.footer {
+    background-color: aquamarine;
+    padding: 10px;
+    grid-area: footer;
+}
+
+img {
+    float: right;
+    max-width: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .contenedor {
+        gap: 0.7rem;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "header header header"
+            "contenido contenido contenido"
+            "sidebar sidebar sidebar"
+            "caja1 caja2 caja2"
+            "footer footer footer"
+        ;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .contenedor {
+        gap: 0.7rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "header header"
+            "contenido contenido"
+            "sidebar sidebar"
+            "caja1 caja2"
+            "footer footer"
+        ;
+    }
+}

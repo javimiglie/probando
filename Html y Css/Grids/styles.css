@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.padre {
+    width: 90%;
+    border: solid black 3px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.hijo {
+    background-color: brown;
+    border: 2px blue solid;
+}
+
+.prueba {
+    background-color: green;
+    border: 3px solid red;
+}
